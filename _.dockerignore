@@ -1,0 +1,13 @@
+.git
+**/node_modules
+webapp/channels/dist
+e2e-tests
+server/go.work
+server/go.work.sum
+server/bin
+server/dist
+server/data
+server/logs
+server/plugins
+server/config/config.json
+**/*.log
