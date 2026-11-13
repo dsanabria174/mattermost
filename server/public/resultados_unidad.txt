@@ -1,0 +1,221 @@
+go: downloading github.com/Masterminds/semver/v3 v3.5.0
+go: downloading github.com/dyatlov/go-opengraph/opengraph v0.0.0-20220524092352-606d7b1e5f8a
+go: downloading github.com/francoispqt/gojay v1.2.13
+go: downloading github.com/goccy/go-yaml v1.19.2
+go: downloading github.com/gorilla/websocket v1.5.3
+go: downloading github.com/hashicorp/go-multierror v1.1.1
+go: downloading github.com/hashicorp/go-plugin v1.8.0
+go: downloading github.com/mattermost/ldap v0.0.0-20231116144001-0f480c025956
+go: downloading github.com/pborman/uuid v1.2.1
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading github.com/stretchr/testify v1.12.1
+go: downloading github.com/tinylib/msgp v1.6.5
+go: downloading github.com/vmihailenco/msgpack/v5 v5.4.1
+go: downloading golang.org/x/crypto v0.58.0
+go: downloading golang.org/x/mod v0.42.0
+go: downloading github.com/hashicorp/errwrap v1.1.0
+go: downloading github.com/mattermost/go-i18n v1.11.1-0.20211013152124-5c415071e404
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading github.com/hashicorp/go-hclog v1.6.3
+go: downloading github.com/hashicorp/yamux v0.1.2
+go: downloading github.com/oklog/run v1.2.0
+go: downloading google.golang.org/grpc v1.85.0
+go: downloading github.com/go-asn1-ber/asn1-ber v1.5.8
+go: downloading github.com/google/uuid v1.6.0
+go: downloading github.com/mattermost/logr/v2 v2.0.25
+go: downloading github.com/philhofer/fwd v1.2.1
+go: downloading github.com/vmihailenco/tagparser/v2 v2.0.0
+go: downloading google.golang.org/protobuf v1.36.12
+go: downloading github.com/pelletier/go-toml v1.9.5
+go: downloading gopkg.in/yaml.v2 v2.4.0
+go: downloading github.com/fatih/color v1.19.0
+go: downloading github.com/mattn/go-isatty v0.0.24
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20261026165753-2ffab32bce7e
+go: downloading github.com/wiggin77/merror v1.0.5
+go: downloading github.com/wiggin77/srslog v1.0.1
+go: downloading gopkg.in/natefinch/lumberjack.v2 v2.2.1
+go: downloading github.com/mattn/go-colorable v0.1.16
+go: downloading golang.org/x/sys v0.49.0
+=== RUN   TestCustomStatusDuracionYExpiracion_Unidad
+=== RUN   TestCustomStatusDuracionYExpiracion_Unidad/P1_sin_duración_ni_expiración
+=== RUN   TestCustomStatusDuracionYExpiracion_Unidad/P2_sin_duración,_expiración_futura
+=== RUN   TestCustomStatusDuracionYExpiracion_Unidad/P3_sin_duración,_expiración_pasada
+=== RUN   TestCustomStatusDuracionYExpiracion_Unidad/P4_duración_válida,_expiración_futura
+=== RUN   TestCustomStatusDuracionYExpiracion_Unidad/P5_duración_válida,_expiración_pasada
+=== RUN   TestCustomStatusDuracionYExpiracion_Unidad/P6_duración_inexistente
+=== RUN   TestCustomStatusDuracionYExpiracion_Unidad/todas_las_duraciones_permitidas_son_válidas_con_expiración_futura
+--- PASS: TestCustomStatusDuracionYExpiracion_Unidad (0.00s)
+    --- PASS: TestCustomStatusDuracionYExpiracion_Unidad/P1_sin_duración_ni_expiración (0.00s)
+    --- PASS: TestCustomStatusDuracionYExpiracion_Unidad/P2_sin_duración,_expiración_futura (0.00s)
+    --- PASS: TestCustomStatusDuracionYExpiracion_Unidad/P3_sin_duración,_expiración_pasada (0.00s)
+    --- PASS: TestCustomStatusDuracionYExpiracion_Unidad/P4_duración_válida,_expiración_futura (0.00s)
+    --- PASS: TestCustomStatusDuracionYExpiracion_Unidad/P5_duración_válida,_expiración_pasada (0.00s)
+    --- PASS: TestCustomStatusDuracionYExpiracion_Unidad/P6_duración_inexistente (0.00s)
+    --- PASS: TestCustomStatusDuracionYExpiracion_Unidad/todas_las_duraciones_permitidas_son_válidas_con_expiración_futura (0.00s)
+=== RUN   TestCustomStatusPreSave_Unidad
+=== RUN   TestCustomStatusPreSave_Unidad/sin_duración_y_con_expiración_futura_pasa_a_date_and_time
+=== RUN   TestCustomStatusPreSave_Unidad/sin_duración_y_con_expiración_pasada_no_cambia
+=== RUN   TestCustomStatusPreSave_Unidad/sin_duración_y_sin_expiración_no_cambia
+=== RUN   TestCustomStatusPreSave_Unidad/con_duración_definida_no_cambia
+=== RUN   TestCustomStatusPreSave_Unidad/límite:_texto_de_100_caracteres_se_conserva_aunque_tenga_más_de_100_bytes
+=== RUN   TestCustomStatusPreSave_Unidad/texto_de_101_caracteres_se_recorta_a_100
+--- PASS: TestCustomStatusPreSave_Unidad (0.00s)
+    --- PASS: TestCustomStatusPreSave_Unidad/sin_duración_y_con_expiración_futura_pasa_a_date_and_time (0.00s)
+    --- PASS: TestCustomStatusPreSave_Unidad/sin_duración_y_con_expiración_pasada_no_cambia (0.00s)
+    --- PASS: TestCustomStatusPreSave_Unidad/sin_duración_y_sin_expiración_no_cambia (0.00s)
+    --- PASS: TestCustomStatusPreSave_Unidad/con_duración_definida_no_cambia (0.00s)
+    --- PASS: TestCustomStatusPreSave_Unidad/límite:_texto_de_100_caracteres_se_conserva_aunque_tenga_más_de_100_bytes (0.00s)
+    --- PASS: TestCustomStatusPreSave_Unidad/texto_de_101_caracteres_se_recorta_a_100 (0.00s)
+=== RUN   TestRecentCustomStatuses_Unidad
+=== RUN   TestRecentCustomStatuses_Unidad/Add_agrega_el_nuevo_estado_al_frente
+=== RUN   TestRecentCustomStatuses_Unidad/Add_mueve_al_frente_el_estado_con_el_mismo_texto_sin_duplicarlo
+=== RUN   TestRecentCustomStatuses_Unidad/Add_descarta_el_más_antiguo_al_superar_el_máximo_de_5
+=== RUN   TestRecentCustomStatuses_Unidad/Contains_devuelve_false_para_un_estado_nulo
+=== RUN   TestRecentCustomStatuses_Unidad/Contains_devuelve_false_para_un_estado_vacío
+=== RUN   TestRecentCustomStatuses_Unidad/Contains_encuentra_un_estado_presente_y_no_uno_ausente
+=== RUN   TestRecentCustomStatuses_Unidad/Remove_quita_el_estado_indicado
+=== RUN   TestRecentCustomStatuses_Unidad/Remove_con_un_estado_ausente_no_cambia_la_lista
+--- PASS: TestRecentCustomStatuses_Unidad (0.00s)
+    --- PASS: TestRecentCustomStatuses_Unidad/Add_agrega_el_nuevo_estado_al_frente (0.00s)
+    --- PASS: TestRecentCustomStatuses_Unidad/Add_mueve_al_frente_el_estado_con_el_mismo_texto_sin_duplicarlo (0.00s)
+    --- PASS: TestRecentCustomStatuses_Unidad/Add_descarta_el_más_antiguo_al_superar_el_máximo_de_5 (0.00s)
+    --- PASS: TestRecentCustomStatuses_Unidad/Contains_devuelve_false_para_un_estado_nulo (0.00s)
+    --- PASS: TestRecentCustomStatuses_Unidad/Contains_devuelve_false_para_un_estado_vacío (0.00s)
+    --- PASS: TestRecentCustomStatuses_Unidad/Contains_encuentra_un_estado_presente_y_no_uno_ausente (0.00s)
+    --- PASS: TestRecentCustomStatuses_Unidad/Remove_quita_el_estado_indicado (0.00s)
+    --- PASS: TestRecentCustomStatuses_Unidad/Remove_con_un_estado_ausente_no_cambia_la_lista (0.00s)
+=== RUN   TestIsValidEmojiName_Unidad
+=== RUN   TestIsValidEmojiName_Unidad/P1_nombre_vacío
+=== RUN   TestIsValidEmojiName_Unidad/P2_nombre_de_65_caracteres
+=== RUN   TestIsValidEmojiName_Unidad/P3_carácter_no_permitido
+=== RUN   TestIsValidEmojiName_Unidad/P4_nombre_de_emoji_del_sistema
+=== RUN   TestIsValidEmojiName_Unidad/P5_nombre_válido
+=== RUN   TestIsValidEmojiName_Unidad/límite:_64_caracteres_es_válido
+=== RUN   TestIsValidEmojiName_Unidad/acepta_el_signo_+
+--- PASS: TestIsValidEmojiName_Unidad (0.00s)
+    --- PASS: TestIsValidEmojiName_Unidad/P1_nombre_vacío (0.00s)
+    --- PASS: TestIsValidEmojiName_Unidad/P2_nombre_de_65_caracteres (0.00s)
+    --- PASS: TestIsValidEmojiName_Unidad/P3_carácter_no_permitido (0.00s)
+    --- PASS: TestIsValidEmojiName_Unidad/P4_nombre_de_emoji_del_sistema (0.00s)
+    --- PASS: TestIsValidEmojiName_Unidad/P5_nombre_válido (0.00s)
+    --- PASS: TestIsValidEmojiName_Unidad/límite:_64_caracteres_es_válido (0.00s)
+    --- PASS: TestIsValidEmojiName_Unidad/acepta_el_signo_+ (0.00s)
+=== RUN   TestEmojiIsValid_Unidad
+=== RUN   TestEmojiIsValid_Unidad/emoji_válido
+=== RUN   TestEmojiIsValid_Unidad/Id_inválido
+=== RUN   TestEmojiIsValid_Unidad/sin_fecha_de_creación
+=== RUN   TestEmojiIsValid_Unidad/sin_fecha_de_actualización
+=== RUN   TestEmojiIsValid_Unidad/CreatorId_de_27_caracteres
+=== RUN   TestEmojiIsValid_Unidad/límite:_CreatorId_de_26_caracteres
+=== RUN   TestEmojiIsValid_Unidad/CreatorId_vacío_(comportamiento_observado)
+=== RUN   TestEmojiIsValid_Unidad/nombre_inválido_se_delega_en_IsValidEmojiName
+--- PASS: TestEmojiIsValid_Unidad (0.00s)
+    --- PASS: TestEmojiIsValid_Unidad/emoji_válido (0.00s)
+    --- PASS: TestEmojiIsValid_Unidad/Id_inválido (0.00s)
+    --- PASS: TestEmojiIsValid_Unidad/sin_fecha_de_creación (0.00s)
+    --- PASS: TestEmojiIsValid_Unidad/sin_fecha_de_actualización (0.00s)
+    --- PASS: TestEmojiIsValid_Unidad/CreatorId_de_27_caracteres (0.00s)
+    --- PASS: TestEmojiIsValid_Unidad/límite:_CreatorId_de_26_caracteres (0.00s)
+    --- PASS: TestEmojiIsValid_Unidad/CreatorId_vacío_(comportamiento_observado) (0.00s)
+    --- PASS: TestEmojiIsValid_Unidad/nombre_inválido_se_delega_en_IsValidEmojiName (0.00s)
+=== RUN   TestEmojiPreSave_Unidad
+=== RUN   TestEmojiPreSave_Unidad/asigna_un_Id_cuando_está_vacío
+=== RUN   TestEmojiPreSave_Unidad/conserva_el_Id_cuando_ya_existe
+=== RUN   TestEmojiPreSave_Unidad/pasa_el_nombre_a_minúsculas
+=== RUN   TestEmojiPreSave_Unidad/fechas_de_creación_y_actualización_iguales_y_mayores_que_cero
+--- PASS: TestEmojiPreSave_Unidad (0.00s)
+    --- PASS: TestEmojiPreSave_Unidad/asigna_un_Id_cuando_está_vacío (0.00s)
+    --- PASS: TestEmojiPreSave_Unidad/conserva_el_Id_cuando_ya_existe (0.00s)
+    --- PASS: TestEmojiPreSave_Unidad/pasa_el_nombre_a_minúsculas (0.00s)
+    --- PASS: TestEmojiPreSave_Unidad/fechas_de_creación_y_actualización_iguales_y_mayores_que_cero (0.00s)
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P1_sin_Props
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P2_con_Message
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P3_con_FileIds
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P4_que_fija_el_mensaje_(IsPinned)
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P5_con_HasReactions
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P6_solo_quita_la_vista_previa
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P6_variante:_valor_distinto_de_true
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P6_variante:_valor_que_no_es_cadena
+=== RUN   TestPostPatchIsOnlyRemoveLinkPreview_Unidad/desfijar_tampoco_cuenta_como_quitar_la_vista_previa
+--- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad (0.00s)
+    --- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P1_sin_Props (0.00s)
+    --- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P2_con_Message (0.00s)
+    --- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P3_con_FileIds (0.00s)
+    --- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P4_que_fija_el_mensaje_(IsPinned) (0.00s)
+    --- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P5_con_HasReactions (0.00s)
+    --- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P6_solo_quita_la_vista_previa (0.00s)
+    --- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P6_variante:_valor_distinto_de_true (0.00s)
+    --- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad/P6_variante:_valor_que_no_es_cadena (0.00s)
+    --- PASS: TestPostPatchIsOnlyRemoveLinkPreview_Unidad/desfijar_tampoco_cuenta_como_quitar_la_vista_previa (0.00s)
+=== RUN   TestPreferenceIsValid_Unidad
+=== RUN   TestPreferenceIsValid_Unidad/P1_guardar_un_mensaje_(flagged_post)
+=== RUN   TestPreferenceIsValid_Unidad/P2_UserId_inválido
+=== RUN   TestPreferenceIsValid_Unidad/P3_categoría_vacía
+=== RUN   TestPreferenceIsValid_Unidad/P4_categoría_de_33_caracteres
+=== RUN   TestPreferenceIsValid_Unidad/P5_nombre_de_33_caracteres
+=== RUN   TestPreferenceIsValid_Unidad/P6_valor_con_una_runa_de_más
+=== RUN   TestPreferenceIsValid_Unidad/P7_tema_con_JSON_inválido
+=== RUN   TestPreferenceIsValid_Unidad/P8_tema_con_JSON_válido
+=== RUN   TestPreferenceIsValid_Unidad/P9_barra_lateral_con_otro_nombre
+=== RUN   TestPreferenceIsValid_Unidad/P10_límite_de_DMs_no_numérico
+=== RUN   TestPreferenceIsValid_Unidad/P11_límite_de_DMs_menor_que_1
+=== RUN   TestPreferenceIsValid_Unidad/P12_límite_de_DMs_por_encima_del_máximo
+=== RUN   TestPreferenceIsValid_Unidad/P13_límite_de_DMs_válido
+=== RUN   TestPreferenceIsValid_Unidad/límite:_categoría_de_32_caracteres_es_válida
+=== RUN   TestPreferenceIsValid_Unidad/límite:_nombre_de_32_caracteres_es_válido
+=== RUN   TestPreferenceIsValid_Unidad/límite:_valor_de_longitud_máxima_es_válido
+=== RUN   TestPreferenceIsValid_Unidad/límite:_límite_de_DMs_igual_a_1_es_válido
+=== RUN   TestPreferenceIsValid_Unidad/límite:_límite_de_DMs_igual_al_máximo_es_válido
+--- PASS: TestPreferenceIsValid_Unidad (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P1_guardar_un_mensaje_(flagged_post) (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P2_UserId_inválido (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P3_categoría_vacía (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P4_categoría_de_33_caracteres (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P5_nombre_de_33_caracteres (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P6_valor_con_una_runa_de_más (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P7_tema_con_JSON_inválido (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P8_tema_con_JSON_válido (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P9_barra_lateral_con_otro_nombre (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P10_límite_de_DMs_no_numérico (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P11_límite_de_DMs_menor_que_1 (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P12_límite_de_DMs_por_encima_del_máximo (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/P13_límite_de_DMs_válido (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/límite:_categoría_de_32_caracteres_es_válida (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/límite:_nombre_de_32_caracteres_es_válido (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/límite:_valor_de_longitud_máxima_es_válido (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/límite:_límite_de_DMs_igual_a_1_es_válido (0.00s)
+    --- PASS: TestPreferenceIsValid_Unidad/límite:_límite_de_DMs_igual_al_máximo_es_válido (0.00s)
+=== RUN   TestReactionIsValid_Unidad
+=== RUN   TestReactionIsValid_Unidad/P1_UserId_inválido
+=== RUN   TestReactionIsValid_Unidad/P2_PostId_inválido
+=== RUN   TestReactionIsValid_Unidad/P3_emoji_vacío
+=== RUN   TestReactionIsValid_Unidad/P4_emoji_de_65_caracteres
+=== RUN   TestReactionIsValid_Unidad/P5_emoji_con_carácter_no_permitido
+=== RUN   TestReactionIsValid_Unidad/P6_sin_fecha_de_creación
+=== RUN   TestReactionIsValid_Unidad/P7_sin_fecha_de_actualización
+=== RUN   TestReactionIsValid_Unidad/P8_reacción_válida
+=== RUN   TestReactionIsValid_Unidad/límite:_emoji_de_64_caracteres_es_válido
+=== RUN   TestReactionIsValid_Unidad/acepta_mayúsculas,_guion_y_guion_bajo
+--- PASS: TestReactionIsValid_Unidad (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/P1_UserId_inválido (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/P2_PostId_inválido (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/P3_emoji_vacío (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/P4_emoji_de_65_caracteres (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/P5_emoji_con_carácter_no_permitido (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/P6_sin_fecha_de_creación (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/P7_sin_fecha_de_actualización (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/P8_reacción_válida (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/límite:_emoji_de_64_caracteres_es_válido (0.00s)
+    --- PASS: TestReactionIsValid_Unidad/acepta_mayúsculas,_guion_y_guion_bajo (0.00s)
+=== RUN   TestReactionPreSave_Unidad
+=== RUN   TestReactionPreSave_Unidad/asigna_CreateAt_cuando_es_cero
+=== RUN   TestReactionPreSave_Unidad/conserva_CreateAt_cuando_ya_existe
+=== RUN   TestReactionPreSave_Unidad/reinicia_DeleteAt_e_inicializa_RemoteId
+--- PASS: TestReactionPreSave_Unidad (0.00s)
+    --- PASS: TestReactionPreSave_Unidad/asigna_CreateAt_cuando_es_cero (0.00s)
+    --- PASS: TestReactionPreSave_Unidad/conserva_CreateAt_cuando_ya_existe (0.00s)
+    --- PASS: TestReactionPreSave_Unidad/reinicia_DeleteAt_e_inicializa_RemoteId (0.00s)
+PASS
+coverage: 2.8% of statements
+ok  	github.com/mattermost/mattermost/server/public/model	0.119s	coverage: 2.8% of statements
